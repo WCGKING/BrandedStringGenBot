@@ -95,7 +95,7 @@ async def _gen_session(_, cq: types.CallbackQuery):
          return await cq.message.reply_text(f"Error : <code>{str(ex)}</code>")
 
     try:
-        txt = "Here is your {0} session\n\n<code>{1}</code>\n\nA session generator bot by <a href={2}>Fallen Association</a>\n☠ <b>Note :</b> Don't share the session with anyone."
+        txt = "Here is your {0} session\n\n<code>{1}</code>\n\nA session generator bot by <a href={2}>BRANDED_WORLD</a>\n☠ <b>Note :</b> Don't share the session with anyone."
         if pyrogram:
             string_session = await client.export_session_string()
             await client.send_message(
