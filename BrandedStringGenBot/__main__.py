@@ -24,5 +24,5 @@ async def BrandedStringGenBot_boot():
 
 
 if __name__ == "__main__":
-    asyncio.get_event_loop().run_until_complete(anony_boot())
+    asyncio.get_event_loop().run_until_complete(BrandedStringGenBot_boot())
     logger.info("Stopping String Gen Bot...")
