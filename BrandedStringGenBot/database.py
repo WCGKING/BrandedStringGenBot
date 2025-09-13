@@ -1,6 +1,6 @@
 from pymongo import AsyncMongoClient
 
-from anony import logger
+from BrandedStringGenBot import logger
 from config import MONGO_URL
 
 class Database:
