@@ -1,0 +1,38 @@
+{
+    "name": "BʀᴀɴᴅᴇᴅSᴛʀɪɴɢGᴇɴBᴏᴛ",
+    "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
+    "logo": "https://files.catbox.moe/ova1gi.jpg",
+    "keywords": [
+        "python3",
+        "telegram",
+        "session",
+        "stringbot",
+        "telegram-bot",
+        "pyrogram",
+        "telethon"
+    ],
+    "repository": "https://github.com/WCGKING/BrandedStringGenBot",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Get this value from @BotFather on telegram",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "Fill your user id here. (Must be integer)",
+        "value": "",
+        "required": true
+      },
+      "MONGO_URL": {
+        "description": "Get this value from cloud.mongodb.com",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ],
+      "stack": "container"
+  }
